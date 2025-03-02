@@ -8,12 +8,12 @@ public class Customer {
   private String password;
   private int accountId;
 
-  public Customer(int id, String name, String username, String password, int accountId) {
-    setId(id);
-    setName(name);
-    setUserName(username);
-    setPassword(password);
-    setAccountId(accountId);
+  public Customer(int id, String name, String userName, String password, int accountId) {
+    this.id = id;
+    this.name = name;
+    this.userName = userName;
+    this.password = password;
+    this.accountId = accountId;
   }
 
   public int getId() {
